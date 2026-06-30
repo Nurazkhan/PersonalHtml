@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "vite": "^8.1.2"
+  },
+  "scripts": {
+    "dev": "vite"
+  }
+}
