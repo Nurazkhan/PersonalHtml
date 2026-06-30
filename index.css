@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Jacquard+24&family=Rubik+Pixels&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+h1{
+     font-family: "Jacquard 24", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 96px;
+}
+
+h3{
+    font-family: "Rubik Pixels", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 96px;
+}
+
+h4{
+    font-family: "Coral Pixels", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  font-size: 120px;
+}
+
+.section1{
+ display: flex;
+ width: 100vw;
+ height: 100vh;
+ background-image: linear-gradient(135deg, rgba(2, 7, 11, 0.8),rgba(148, 12, 12, 0.7)) ;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.Question{
+    font-family: "Jacquard 24", system-ui;
+    color: white;
+    font-size: 4vh;
+    position: relative;
+    top: 2vh
+}
+
+.title{
+    font-size: 15vw;
+    
+     font-family: "Coral Pixels", serif;
+}
+.transition1{
+    position: absolute;
+    width: 110vw;
+    height: 10vh;
+    left: -5vw;
+    background-color: #ccc;
+    top: 95vh;
+    transform: rotate(2.5deg)
+}
