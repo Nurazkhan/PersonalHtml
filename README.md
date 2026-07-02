@@ -1,5 +1,5 @@
 #Personal Html
-![alt text](/image.png)
+![alt text](public/image.png)
 
 well I did this for StarDance hack club. 
 but I know it doesn't bother you.
