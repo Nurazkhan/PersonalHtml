@@ -261,7 +261,43 @@ scale: 4;
     display: flex;
  width: 100vw;
  height: 100vh;
- background: white ;
+ background: rgb(67, 65, 65) ;
  flex-direction: column;
- overflow: hidden;
+ align-items: center;
+}
+
+.section5 p{
+    margin-top: 5vh;
+    position: relative;
+    font-family: 'poppins';
+color: white;
+font-size: 4vw;
+font-weight: 600;
+}
+
+.cont{
+    width: 100vw;
+    height: 60vh;
+   
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    width: 30vw;
+    height: 50vh;
+    background-color: rgb(125, 215, 155);
+    border-radius: 2vw;
+    padding: 2vh;
+    box-sizing: border-box;
+    
+}
+.card strong{
+    font-family: 'montserrat';
+   font-size: 4vh;
+}
+.card p{
+    font-size: 3vh;
+    color: black;
 }
